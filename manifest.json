@@ -1,0 +1,11 @@
+{
+  "name": "showitem",
+  "id": "1109378747808330355",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "ui": "ui.html"
+}

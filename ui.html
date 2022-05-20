@@ -1,0 +1,13 @@
+<h1>Testing Plugins</h1>
+
+<button id="runPlugin">Run Plugin</button>
+
+<button id="exitPlugin">Exit</button>
+<script>
+  document.getElementById('runPlugin').onclick = () => {
+    parent.postMessage({pluginMessage:{type:'run-plugin'}},'*');
+  }
+  document.getElementById('exitPlugin').onclick = () =>{
+    parent.postMessage({pluginMessage:{type:'exitPlugin'}},'*');
+  }
+</script>
